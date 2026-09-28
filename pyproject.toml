@@ -1,0 +1,14 @@
+[project]
+name = "cyclone-intel"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "dask>=2026.8.0",
+    "matplotlib>=3.11.2",
+    "pyresample>=1.35.0",
+    "satpy>=0.60.0",
+    "xarray>=2026.7.0",
+]
+
+[tool.uv]
+package = true
